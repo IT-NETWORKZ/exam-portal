@@ -1,0 +1,30 @@
+.footer {
+  position: relative;
+  background: var(--navy-950);
+  overflow: hidden;
+}
+
+.footer__glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(500px 140px at 15% 0%, rgba(63,145,66,0.35), transparent),
+    radial-gradient(500px 140px at 85% 100%, rgba(43,196,217,0.28), transparent);
+  pointer-events: none;
+}
+
+.footer__inner {
+  position: relative;
+  padding: 22px 24px;
+  text-align: center;
+}
+
+.footer__inner p {
+  color: #a9b6cd;
+  font-size: 13px;
+}
+
+.footer__brand {
+  color: var(--amber-400);
+  font-weight: 700;
+}
